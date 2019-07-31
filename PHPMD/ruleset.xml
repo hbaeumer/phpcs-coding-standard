@@ -6,12 +6,10 @@
         The PHPMD coding standard.
     </description>
 
-    <config name="testVersion" value="7.3"/>
+    <config name="testVersion" value="5.3"/>
     <!-- check PHP Compatibility-->
     <rule ref="PHPCompatibility"/>
 
-    <!-- Forbid `array(...)` -->
-    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <!-- force all parameters in for loop -->
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
     <!-- For loops should not call functions inside the test for the loop when they can be computed beforehand. -->
