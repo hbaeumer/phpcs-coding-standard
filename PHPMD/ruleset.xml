@@ -130,14 +130,6 @@
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
     <!-- Forbid weak comparisons -->
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
-    <!-- Require presence of declare(strict_types=1) -->
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
-        <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="0"/>
-            <property name="newlinesCountAfterDeclare" value="2"/>
-            <property name="spacesCountAroundEqualsSign" value="0"/>
-        </properties>
-    </rule>
     <!-- Disallows usage of array type hint syntax (eg. int[], bool[][]) in phpDocs in favour of generic type hint syntax (eg. array<int>, array<array<bool>>). -->
     <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
     <!-- Require one space between typehint and variable, require no space between nullability sign and typehint -->
