@@ -85,6 +85,7 @@
                 <element value="
                     @internal,
                     @deprecated,
+                    @since,
                 "/>
                 <element value="
                     @link,
