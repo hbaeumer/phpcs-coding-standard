@@ -1,0 +1,36 @@
+{
+    "name": "hbaeumer/phpmd-coding-standard",
+    "type": "phpcodesniffer-standard",
+    "description": "The PHPMD Coding Standard is a set of PHPCS rules applied to all PDEPEND/PHPMD projects.",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "phpcompatibility/php-compatibility": "^9.2",
+        "slevomat/coding-standard": "^5.0",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "keywords": [
+        "phpmd",
+        "pdepend",
+        "coding",
+        "standard",
+        "cs",
+        "code",
+        "style",
+        "sniffer",
+        "rules",
+        "sniffs",
+        "checks"
+    ],
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Heiner Bäumer",
+            "email": "mail@hbaeumer.de"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    }
+
+}
